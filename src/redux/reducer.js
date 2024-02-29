@@ -15,11 +15,12 @@ export const cartData = (data = [], action) => {
 
         case REMOVE_FROM_CART:
             console.warn('REMOVE_FROM_CART called', action)
+            const remainingItems = data.filter(item => item.id !== action.data)
             // const newData = data.map(value => ({ ...value }))
             // newData.length = newData.length ? newData.length - 1 : data
-            const newData = data.length ? data.slice(0, -1) : data
+            // const newData = data.length ? data.slice(0, -1) : data
             // data.length = data.length ? data.length - 1 : []
-            return [...newData];
+            return [...remainingItems];
 
         case EMPTY_CART:
             console.warn('EMPTY_CART called', action)
