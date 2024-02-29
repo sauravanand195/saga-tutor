@@ -7,6 +7,47 @@
   pointer-events: none;
 }
 
+/* header style */
+.header {
+  background-color: rgb(224, 224, 224);
+  height: 100px;
+}
+
+.cart-div {
+  float: right;
+  margin: 25px;
+  position: relative;
+}
+
+.cart-div img {
+  width: 30px;
+}
+
+.product-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.product-item{
+  border: 1px solid #ccc;
+  margin: 20px;
+  padding: 20px;
+}
+
+.cart-div span {
+  position: absolute;
+  z-index: 1;
+  background-color: green;
+  height: 17px;
+  width: 17px;
+  border-radius: 50%;
+  color: white;
+  top: -12px;
+  right: 9px;
+}
+
+/* header style */
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -32,6 +73,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
