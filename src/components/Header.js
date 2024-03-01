@@ -4,12 +4,12 @@ import { Link } from 'react-router-dom';
 
 const Header = () => {
     const result = useSelector((state) => state.cartData);
-    console.log('reduc data in header >> ', result)
+    console.log('reducer data in header >> ', result)
 
     return (
         <div className='header'>
             <Link to='/'>
-                <h1 className='logo'>Home</h1>
+                <h3 className='logo'>Home</h3>
             </Link>
             <Link to='/cart'>
                 <div className='cart-div'>
