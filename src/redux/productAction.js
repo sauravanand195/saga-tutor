@@ -1,4 +1,4 @@
-import { PRODUCT_LIST, SET_PRODUCT_LIST } from "./constant";
+import { PRODUCT_LIST, SEARCH_PRODUCT, SET_PRODUCT_LIST } from "./constant";
 
 export const productList = () => {
     return {
@@ -6,10 +6,9 @@ export const productList = () => {
     }
 }
 
-// export const setProductList = (data) => {
-//     console.warn("set action");
-//     return{
-//         type: SET_PRODUCT_LIST,
-//         data
-//     }
-// }
+export const productSearch = (query) => {
+    return {
+        type: SEARCH_PRODUCT,
+        query
+    }
+}

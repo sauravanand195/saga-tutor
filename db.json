@@ -1,0 +1,76 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "name": "Samsung M 40",
+            "color": "black",
+            "price": 15000,
+            "category": "mobile",
+            "brand": "Samsung",
+            "photo": "https://cdn.pixabay.com/photo/2016/12/09/11/33/smartphone-1894723_640.jpg"
+        },
+        {
+            "id": 2,
+            "name": "Samsung F20",
+            "color": "white",
+            "price": 50000,
+            "category": "Mobile",
+            "brand": "Samsung",
+            "photo": "https://cdn.pixabay.com/photo/2014/08/05/10/27/iphone-410311_640.jpg"
+        },
+        {
+            "id": 3,
+            "name": "T-shirt",
+            "color": "red",
+            "price": 5000,
+            "category": "clothes",
+            "brand": "Nike",
+            "photo": "https://cdn.pixabay.com/photo/2015/12/14/21/59/t-shirt-template-1093333_640.png"
+        },
+        {
+            "id": 4,
+            "name": "Sports Shoes",
+            "color": "red and black",
+            "price": 8000,
+            "category": "rebook",
+            "brand": "Nike",
+            "photo": "https://cdn.pixabay.com/photo/2013/07/12/18/20/shoes-153310_640.png"
+        },
+        {
+            "id": 5,
+            "name": "530 laptop",
+            "color": "white",
+            "price": 88000,
+            "category": "laptop",
+            "brand": "HP",
+            "photo": "https://cdn.pixabay.com/photo/2016/03/27/07/12/apple-1282241_640.jpg"
+        },
+        {
+            "id": 6,
+            "name": "earphone - 10",
+            "color": "green",
+            "price": 800,
+            "category": "earphone",
+            "brand": "mivi",
+            "photo": "https://cdn.pixabay.com/photo/2015/09/24/12/05/ear-phone-955352_640.png"
+        },
+        {
+            "id": 7,
+            "name": "black shirt",
+            "color": "black",
+            "price": 1800,
+            "category": "clothes",
+            "brand": "tommy",
+            "photo": "https://cdn.pixabay.com/photo/2015/09/01/05/45/stylish-916502_640.jpg"
+        },
+        {
+            "id": 8,
+            "name": "green shirt",
+            "color": "green",
+            "price": 1900,
+            "category": "clothes",
+            "brand": "tommy",
+            "photo": "https://cdn.pixabay.com/photo/2017/12/08/15/54/man-3006126_640.jpg"
+        }
+    ]
+}
