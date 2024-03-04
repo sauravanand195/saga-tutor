@@ -7,7 +7,7 @@ import { useEffect } from "react";
 function Main() {
     const dispatch = useDispatch();
     const data = useSelector((state) => state.productData)
-    console.log('data in main component from saga', data);
+    console.log('reducer data in main', data);
 
     useEffect(() => {
         dispatch(productList())
